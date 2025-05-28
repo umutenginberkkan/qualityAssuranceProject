@@ -7,27 +7,27 @@ Testler `pytest` ile yazılmı?tır ve `Selenium WebDriver` kullanır.
 
 ##  Ba?larken
 
-### ?�� Gereksinimler
+###  Gereksinimler
 
 - Python 3.8 veya üstü
 - Google Chrome
 - ChromeDriver (tarayıcı sürümüne uyumlu)
 - pip (Python paket yöneticisi)
 
-### ?�� Kurulum
+###  Kurulum
 
 ```bash
 git clone https://github.com/umutenginberkkan/qualityAssuranceProject.git
 cd orangehrm-automation
-pip install -r requirements.txt```
+pip install -r requirements.txt
 
 
-## ?? Testleri Cal??t?rma
+##  Testleri Cal??t?rma
 
 Tum testleri cal??t?rmak icin terminalde ?u komutu yaz?n:
 
 ```bash
-pytest test_orangehrm.py```
+pytest test_orangehrm.py
 
 ## Test Kapsam?
 
