@@ -1,18 +1,18 @@
-# ?? OrangeHRM UI Test Automation (Selenium + Python + PyTest)
+# 🧪 OrangeHRM UI Test Automation (Selenium + Python + PyTest)
 
-Bu proje, [OrangeHRM Demo Uygulamas?](https://opensource-demo.orangehrmlive.com/) uzerinde temel kullan?c? arayuzu testlerini otomatikle?tirir.  
-Testler `pytest` ile yaz?lm??t?r ve `Selenium WebDriver` kullan?r.
+Bu proje, [OrangeHRM Demo Uygulaması](https://opensource-demo.orangehrmlive.com/) üzerinde temel kullanıcı arayüzü testlerini otomatikleştirir.  
+Testler `pytest` ile yazılmıştır ve `Selenium WebDriver` kullanır.
 
 ---
 
-## ?? Ba?larken
+## 🚀 Başlarken
 
 ### Gereksinimler
 
-- Python 3.8 veya uzeri
+- Python 3.8 veya üzeri
 - Google Chrome
-- ChromeDriver (taray?c? surumune uyumlu)
-- pip (Python paket yoneticisi)
+- ChromeDriver (tarayıcı sürümüne uyumlu)
+- pip (Python paket yöneticisi)
 
 ### Kurulum
 
@@ -24,32 +24,32 @@ pip install -r requirements.txt
 
 ---
 
-## ?? Testleri Cal??t?rma
+## 🧪 Testleri Çalıştırma
 
-Tum testleri cal??t?rmak icin terminalde ?u komutu yaz?n:
+Tüm testleri çalıştırmak için terminalde şu komutu yazın:
 
 ```bash
 pytest test_orangehrm.py
 ```
 
-> Taray?c? varsay?lan olarak `headless` (gorunmez) cal???r. Taray?c?n?n ac?lmas?n? isterseniz test dosyas?ndaki `--headless` sat?r?n? kald?r?n.
+> Tarayıcı varsayılan olarak `headless` (görünmez) çalışır. Tarayıcının açılmasını isterseniz test dosyasındaki `--headless` satırını kaldırın.
 
 ---
 
-## ? Test Kapsam?
+## ✅ Test Kapsamı
 
 **test_valid_login**  
-�� Do?ru kullan?c? ad? ve ?ifre ile ba?ar?l? giri? yap?labiliyor mu?
+→ Doğru kullanıcı adı ve şifre ile başarılı giriş yapılabiliyor mu?
 
 **test_invalid_login**  
-�� Hatal? bilgilerle giri? yap?ld???nda ��Invalid credentials�� uyar?s? gosteriliyor mu?
+→ Hatalı bilgilerle giriş yapıldığında “Invalid credentials” uyarısı gösteriliyor mu?
 
 **test_empty_fields**  
-�� E-posta veya ?ifre alan? bo? b?rak?ld???nda gerekli uyar?lar c?k?yor mu?
+→ E-posta veya şifre alanı boş bırakıldığında gerekli uyarılar çıkıyor mu?
 
 **test_logout**  
-�� Ba?ar?l? giri? sonras? kullan?c? sistemden duzgun bir ?ekilde c?k?? yapabiliyor mu?
+→ Başarılı giriş sonrası kullanıcı sistemden düzgün bir şekilde çıkış yapabiliyor mu?
 
 **test_admin_page_navigation**  
-�� Kullan?c? ��Admin�� menusune t?klad???nda do?ru sayfaya yonlendiriliyor mu? (`admin/viewSystemUsers`)
+→ Kullanıcı “Admin” menüsüne tıkladığında doğru sayfaya yönlendiriliyor mu? (`admin/viewSystemUsers`)
 
